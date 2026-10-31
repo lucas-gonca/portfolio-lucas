@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SEO: esto lo leen Google, WhatsApp e Instagram antes que nada, por eso vive acá y no en content.json -->
+  <title>Lucas Gonçalves Dias · Comunicador social y creador de contenido</title>
+  <meta name="description" content="Comunicador social, community manager y creador de contenido en Concordia, Entre Ríos. Creación de contenido, gestión de redes, comunicación institucional y cobertura de eventos.">
+  <meta name="author" content="Lucas Gonçalves Dias">
+  <meta name="theme-color" content="#0F0E0F">
+
+  <!-- Open Graph (vista previa al compartir el link) -->
+  <!-- [PENDIENTE] cuando haya dominio: cambiar la URL de og:url y poner la URL completa en og:image -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_AR">
+  <meta property="og:title" content="Lucas Gonçalves Dias · Comunicador social y creador de contenido">
+  <meta property="og:description" content="Hago contenido, comunicación y redes para que te escuchen. Concordia, Entre Ríos.">
+  <meta property="og:url" content="https://PENDIENTE-DOMINIO/">
+  <meta property="og:image" content="assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..700&family=Caveat:wght@600&family=Instrument+Sans:wght@400..700&display=swap">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="#inicio">
+        <span class="brand__dot" aria-hidden="true"></span>
+        <span class="brand__name" data-slot="brand">Lucas Gonçalves Dias</span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Principal">
+        <ul class="main-nav__list" id="nav-list"></ul>
+      </nav>
+
+      <div class="site-header__actions">
+        <a class="btn btn--ink btn--sm" data-cv href="assets/cv.pdf" download="CV-Lucas-Goncalves-Dias.pdf">
+          <span class="hide-sm" data-slot="cv-label">Descargar CV</span><span class="show-sm" data-slot="cv-label-short" aria-hidden="true">CV</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+          <span class="nav-toggle__bars" aria-hidden="true"></span>
+          <span class="visually-hidden">Abrir menú</span>
+        </button>
+      </div>
+    </div>
+    <span class="scroll-progress" aria-hidden="true"></span>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="inicio" aria-label="Inicio"></section>
+    <div class="marquee" id="marquee"></div>
+    <section class="section section--ink" id="numeros"></section>
+    <section class="section bg-columns" id="sobre-mi"></section>
+    <section class="section section--tint bg-dots" id="servicios"></section>
+    <section class="section bg-columns" id="proyectos"></section>
+    <section class="section section--tint bg-dots" id="herramientas" hidden></section>
+    <section class="section" id="testimonios" hidden></section>
+    <section class="section section--ink" id="contacto"></section>
+
+    <noscript>
+      <p class="load-error">Este sitio necesita JavaScript activado para mostrar su contenido.</p>
+    </noscript>
+  </main>
+
+  <footer class="site-footer" id="footer"></footer>
+</body>
+</html>

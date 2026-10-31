@@ -1,0 +1,314 @@
+{
+  "_leeme": [
+    "Este archivo tiene TODOS los textos, links y rutas de imágenes del sitio.",
+    "Cambiá solo lo que está entre comillas a la derecha de los dos puntos.",
+    "Cuidado con las comas y las comillas: si falta una, el sitio no carga (te avisa en pantalla).",
+    "Cualquier texto que diga [PENDIENTE] aparece resaltado en la página para que se note que falta.",
+    "Si una lista queda vacía [] (por ejemplo herramientas o testimonios), esa sección se oculta sola."
+  ],
+
+  "person": {
+    "name": "Lucas Gonçalves Dias",
+    "shortName": "Lucas Gonçalves Dias"
+  },
+
+  "cv": {
+    "file": "assets/cv.pdf",
+    "downloadName": "CV-Lucas-Goncalves-Dias.pdf",
+    "label": "Descargar CV",
+    "labelShort": "CV"
+  },
+
+  "nav": [
+    { "label": "Proyectos", "href": "#proyectos" },
+    { "label": "Servicios", "href": "#servicios" },
+    { "label": "Sobre mí", "href": "#sobre-mi" },
+    { "label": "Contacto", "href": "#contacto" }
+  ],
+
+  "hero": {
+    "badge": "Al aire",
+    "kicker": "Comunicador social · Concordia, Entre Ríos",
+    "titleBefore": "Hago",
+    "rotatingWords": ["contenido", "comunicación", "redes"],
+    "titleAfter": "para que te escuchen.",
+    "subtitle": "La comunicación es mi herramienta y el contenido, mi forma de conectar.",
+    "text": "Community manager y creador de contenido para marcas, empresas e instituciones.",
+    "ctaProjects": "Ver proyectos",
+    "note": "este soy yo",
+    "photo": {
+      "src": "assets/img/lucas.webp",
+      "alt": "Lucas Gonçalves Dias sonriendo, con camisa negra, al aire libre",
+      "width": 960,
+      "height": 1200
+    }
+  },
+
+  "marquee": [
+    "Creación de contenido",
+    "Gestión de redes",
+    "Comunicación institucional",
+    "Cobertura de eventos",
+    "Reels e historias",
+    "Conducción y producción"
+  ],
+
+  "stats": {
+    "eyebrow": "Números",
+    "title": "Los números hablan por mí",
+    "intro": "Algunos resultados de proyectos en los que trabajé.",
+    "note": "mirá esto",
+    "items": [
+      {
+        "value": "+72.000",
+        "label": "reproducciones en un reel de mi cuenta",
+        "source": "Instagram @lucas.gonca_ · 2026",
+        "color": "turq"
+      },
+      {
+        "value": "+38.000",
+        "label": "vistas en un reel de Poné la alarma",
+        "source": "Instagram · 2024",
+        "color": "yellow"
+      },
+      {
+        "value": "360 → +5.000",
+        "label": "seguidores en el Instagram de Innovación Concordia",
+        "source": "Dirección de Innovación de Concordia",
+        "color": "pink"
+      },
+      {
+        "value": "+750",
+        "label": "personas formadas",
+        "source": "Dirección de Innovación de Concordia",
+        "color": "mint"
+      }
+    ]
+  },
+
+  "about": {
+    "eyebrow": "Sobre mí",
+    "title": "Hola, soy Lucas.",
+    "paragraphs": [
+      "Soy comunicador social y me dedico a crear contenido y manejar redes. Me gusta que lo que se publica tenga sentido y, de paso, que den ganas de mirarlo.",
+      "Me formé como Técnico Superior en Comunicación Social y pasé por medios, producción y gestión de redes: conduje y produje un programa, armé contenido para instituciones y cubrí eventos en vivo.",
+      "Mezclo lo estratégico con lo creativo: primero entiendo qué querés decir y a quién, después busco la forma de que se escuche. Lo que más me interesa es armar mensajes que generen vínculo con la gente del otro lado de la pantalla."
+    ],
+    "factsTitle": "Formación",
+    "facts": [
+      "Técnico Superior en Comunicación Social · Instituto Concordia (2024)",
+      "Carrera de Marketing Digital · Coderhouse (2021–2022)",
+      "Seminario intensivo de producción · Academia Resu y LuzuTV (2026)",
+      "Bachiller en Artes Visuales y Producción Audiovisual (2019)"
+    ],
+    "photo": {
+      "src": "assets/img/lucas-2.webp",
+      "alt": "Lucas saludando a cámara en un estudio de streaming, con auriculares y micrófono sobre la mesa",
+      "width": 960,
+      "height": 1200
+    }
+  },
+
+  "services": {
+    "eyebrow": "Servicios",
+    "title": "Qué puedo hacer por vos",
+    "intro": "Cuatro formas de que tu marca o institución tenga algo para decir, y lo diga bien.",
+    "items": [
+      {
+        "title": "Creación de contenido",
+        "text": "Reels, publicaciones e historias pensadas para cada plataforma. Lo que funciona en un reel no siempre funciona en una historia.",
+        "icon": "play",
+        "color": "turq"
+      },
+      {
+        "title": "Gestión de redes",
+        "text": "Planifico, optimizo y le respondo a tu comunidad. Redes que se sienten vivas, no un cartel colgado.",
+        "icon": "chat",
+        "color": "pink"
+      },
+      {
+        "title": "Comunicación institucional",
+        "text": "Gacetillas, cobertura de actividades y contenidos formales y claros. Serio cuando hay que serlo.",
+        "icon": "megaphone",
+        "color": "yellow"
+      },
+      {
+        "title": "Cobertura de eventos",
+        "text": "Foto y video en tiempo real para redes. Que tus seguidores estén ahí aunque no hayan ido.",
+        "icon": "camera",
+        "color": "mint"
+      }
+    ]
+  },
+
+  "projects": {
+    "eyebrow": "Proyectos",
+    "title": "La programación",
+    "intro": "Cinco proyectos, cada uno con su color y su propio formato.",
+    "note": "dale play",
+    "items": [
+      {
+        "id": "codesal",
+        "name": "CODESAL",
+        "color": "turq",
+        "period": "Abril 2025 – actualidad",
+        "role": "Equipo de comunicación",
+        "sticker": "+32K reproducciones",
+        "summary": "Formo parte del equipo de comunicación: llevo la parte institucional y las redes.",
+        "highlights": [
+          "Comunicación institucional: email marketing, contacto con la prensa e hilo de comunicación.",
+          "Redes: testimonios, publicidades, edición de video y estrategia."
+        ],
+        "results": [
+          "Reels de hasta 32.000 reproducciones, y varios más entre 11.000 y 29.000.",
+          "Comunico para una cuenta de Instagram con 33 mil seguidores.",
+          "Audiencia: 76% mujeres. La franja más grande tiene entre 35 y 44 años (35,2%)."
+        ],
+        "links": [
+          { "label": "@codesal_er", "url": "https://www.instagram.com/codesal_er/", "icon": "instagram" }
+        ],
+        "images": [
+          { "src": "assets/projects/codesal-1.webp", "alt": "Perfil de Instagram de CODESAL (Termas de Ayuí y Termas de Punta Viracho): 1.213 publicaciones y 33 mil seguidores", "width": 1600, "height": 1000 },
+          { "src": "assets/projects/codesal-2.webp", "alt": "Grilla de publicaciones de CODESAL: vistas aéreas del parque acuático, el lago de Salto Grande y piezas institucionales", "width": 1600, "height": 1000 }
+        ],
+        "videos": [
+          { "type": "file", "src": "assets/projects/codesal-reel.mp4", "poster": "assets/projects/codesal-reel.webp", "label": "Reel para CODESAL en las termas, con Lucas frente a cámara" }
+        ]
+      },
+      {
+        "id": "independiente",
+        "name": "Creador de contenido",
+        "color": "ink",
+        "period": "2024 – actualidad",
+        "role": "Independiente · cuenta propia, marcas y eventos",
+        "sticker": "+72K reproducciones",
+        "summary": "Hago contenido para mi cuenta, para marcas y emprendimientos: coberturas en fiestas y eventos en tiempo real, entrevistas y reels propios.",
+        "highlights": [
+          "Cobertura y contenido en boliches, fiestas y eventos, en tiempo real.",
+          "Piezas para redes de marcas y emprendimientos.",
+          "Edición de video y promoción."
+        ],
+        "results": [
+          "Mi reel más visto superó las 72.000 reproducciones, y otros ocho pasan las 20.000.",
+          "Audiencia: 62,9% mujeres, casi la mitad (49,9%) entre 25 y 34 años. La ciudad principal es Concordia."
+        ],
+        "links": [
+          { "label": "@lucas.gonca_", "url": "https://www.instagram.com/lucas.gonca_/", "icon": "instagram" }
+        ],
+        "images": [],
+        "videos": [
+          { "type": "file", "src": "assets/projects/independiente-5.mp4", "poster": "assets/projects/independiente-5.webp", "label": "Reel: entrevistas a la gente en una fiesta" },
+          { "type": "file", "src": "assets/projects/independiente-2.mp4", "poster": "assets/projects/independiente-2.webp", "label": "Reel: cobertura de un show en vivo" },
+          { "type": "file", "src": "assets/projects/independiente-1.mp4", "poster": "assets/projects/independiente-1.webp", "label": "Reel: entrevistas de noche en la calle" },
+          { "type": "file", "src": "assets/projects/independiente-3.mp4", "poster": "assets/projects/independiente-3.webp", "label": "Reel: picnic sorpresa" },
+          { "type": "file", "src": "assets/projects/independiente-4.mp4", "poster": "assets/projects/independiente-4.webp", "label": "Reel propio grabado al aire libre" },
+          { "type": "file", "src": "assets/projects/independiente-6.mp4", "poster": "assets/projects/independiente-6.webp", "label": "Reel propio frente a cámara" }
+        ]
+      },
+      {
+        "id": "pone-la-alarma",
+        "name": "Poné la alarma",
+        "color": "pink",
+        "period": "Mayo – noviembre 2024",
+        "role": "Conductor y productor",
+        "sticker": "+38K vistas",
+        "summary": "Conduje y produje el programa de radio y streaming, que salía por Oíd Mortales 88.7, y además armé el contenido para sus redes.",
+        "highlights": [
+          "Donde más pegó fue en Instagram: el reel más visto superó las 38.000 vistas.",
+          "Colaboraciones con marcas locales como Reves Indumentaria, Softplanet y Luz Azul, y con entes provinciales."
+        ],
+        "results": ["Reels con 38.100, 25.900, 17.300 y 13.700 vistas."],
+        "links": [
+          { "label": "@ponelaalarma", "url": "https://www.instagram.com/ponelaalarma/", "icon": "instagram" }
+        ],
+        "images": [
+          { "src": "assets/projects/pone-la-alarma-1.webp", "alt": "Logo de Poné la alarma sobre fondo amarillo", "width": 1600, "height": 1000 },
+          { "src": "assets/projects/pone-la-alarma-2.webp", "alt": "Perfil de Instagram de Poné la alarma: programa de radio y streaming en Oíd Mortales 88.7, martes de 15 a 17", "width": 1600, "height": 1000 },
+          { "src": "assets/projects/pone-la-alarma-3.webp", "alt": "Reels de Poné la alarma: el de la colaboración con Reves Indumentaria tiene 38,1 mil vistas", "width": 1600, "height": 1000 },
+          { "src": "assets/projects/pone-la-alarma-4.webp", "alt": "Reels de Poné la alarma con Softplanet y Reves Indumentaria, con 6.780, 2.358 y 17,3 mil vistas", "width": 1600, "height": 1000 }
+        ],
+        "videos": [
+          { "type": "file", "src": "assets/projects/pone-la-alarma-reel.mp4", "poster": "assets/projects/pone-la-alarma-reel.webp", "label": "Reel de Poné la alarma junto a Reves Indumentaria" }
+        ]
+      },
+      {
+        "id": "innovacion-concordia",
+        "name": "Innovación Concordia",
+        "color": "yellow",
+        "period": "2022 – 2025",
+        "role": "Community manager · Dirección de Innovación de Concordia",
+        "sticker": "360 → 5K+",
+        "summary": "Llevé las redes de la Dirección de Innovación de Concordia.",
+        "highlights": [
+          "El Instagram pasó de 360 a más de 5.000 seguidores.",
+          "Reconocimiento nacional por la Escuela de Robótica, con nota en Infobae.",
+          "Más de 750 personas formadas."
+        ],
+        "results": [],
+        "links": [
+          { "label": "@concordia.innovacion", "url": "https://www.instagram.com/concordia.innovacion/", "icon": "instagram" },
+          { "label": "Nota en Infobae", "url": "https://www.infobae.com/educacion/2023/09/19/concordia-apuesta-al-talento-local-y-crea-su-primer-club-de-robotica/", "icon": "arrow" }
+        ],
+        "images": [
+          { "src": "assets/projects/innovacion-concordia-1.webp", "alt": "Perfil de Instagram de Concordia Innovación, de la Dirección de Innovación y Economía del Conocimiento de la Municipalidad de Concordia", "width": 1600, "height": 1000 },
+          { "src": "assets/projects/innovacion-concordia-2.webp", "alt": "Grilla de publicaciones de Concordia Innovación: cursos, capacitaciones, Concordia Programa y el Club de Robótica", "width": 1600, "height": 1000 }
+        ],
+        "videos": [
+          { "type": "file", "src": "assets/projects/innovacion-concordia-reel.mp4", "poster": "assets/projects/innovacion-concordia-reel.webp", "label": "Reel para Concordia Innovación, con Lucas frente a cámara" }
+        ]
+      },
+      {
+        "id": "makesense",
+        "name": "Makesense México",
+        "color": "red",
+        "period": "Octubre – noviembre 2021",
+        "role": "Marketing digital",
+        "sticker": "Lanzamiento de app",
+        "summary": "Armamos el plan estratégico para lanzar una app, junto a programadores y diseñadores gráficos. Yo me encargué del marketing digital.",
+        "highlights": [
+          "Campaña de reconocimiento de marca previa al lanzamiento.",
+          "Estilo de marca y planificación de contenido para Facebook, Instagram y LinkedIn.",
+          "Estrategia de email marketing, inbound y SEO, con KPIs y plan de medición por red.",
+          "Objetivos SMART: +20% de seguidores en Instagram y LinkedIn en dos meses, engagement de Instagram al 15% y +15% de visitas a la web en seis meses."
+        ],
+        "results": [],
+        "links": [],
+        "images": [
+          { "src": "assets/projects/makesense-1.webp", "alt": "Portada del plan de marketing para Makesense México", "width": 1600, "height": 1000 },
+          { "src": "assets/projects/makesense-2.webp", "alt": "Diapositiva: qué hace diferente a la nueva red social de Makesense", "width": 1600, "height": 1000 },
+          { "src": "assets/projects/makesense-3.webp", "alt": "Diapositiva con los tres objetivos SMART del plan", "width": 1600, "height": 1000 },
+          { "src": "assets/projects/makesense-4.webp", "alt": "Diapositiva: KPIs y plan de medición para Facebook, Instagram y LinkedIn", "width": 1600, "height": 1000 }
+        ],
+        "videos": []
+      }
+    ]
+  },
+
+  "tools": {
+    "eyebrow": "Herramientas",
+    "title": "Con qué trabajo",
+    "items": []
+  },
+
+  "testimonials": {
+    "eyebrow": "Testimonios",
+    "title": "Lo que dicen",
+    "items": []
+  },
+
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "¿Armamos algo juntos?",
+    "intro": "Contame qué tenés en mente. Escribime por donde te quede más cómodo.",
+    "channels": [
+      { "label": "Email", "value": "lucasgoncalvesdias33@gmail.com", "url": "mailto:lucasgoncalvesdias33@gmail.com", "icon": "mail", "color": "yellow" },
+      { "label": "Instagram", "value": "@lucas.gonca_", "url": "https://www.instagram.com/lucas.gonca_/", "icon": "instagram", "color": "pink" }
+    ],
+    "cvNote": "o llevate el CV"
+  },
+
+  "footer": {
+    "place": "Concordia, Entre Ríos · Argentina",
+    "backToTop": "Volver arriba"
+  }
+}
